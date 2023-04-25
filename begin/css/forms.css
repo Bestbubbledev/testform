@@ -1,0 +1,109 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body, div {
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+.wrapper {
+	width: 100%;
+	min-height: 100vh;
+	margin: 0 auto;
+	padding: 2rem;
+	display: flex;
+	flex-flow: row nowrap;
+	background-image: url(../img/galaxy.jpg);
+}
+
+.backgroundcolor {
+	background-color: rgb(242, 245, 245);
+	opacity: 80%;
+	border-radius: 8px;
+	backdrop-filter: blur(40%);
+	padding: 1%;
+	display: flex;
+	flex-flow: row nowrap;
+	
+}
+
+p {
+	margin-bottom: 0;
+	margin-top: 0;
+}
+section {
+	flex-basis: 57%;
+	margin-right: 10%;
+}
+aside {
+	flex-basis: 33%;
+}
+
+form {
+	display: flex;
+	flex-flow: column nowrap;
+	gap: 16px;
+	padding: 20px 0 20px 0;
+	border-radius: 2px;
+}
+
+fieldset {
+	border-radius: 2px;
+	display: flex;
+	flex-flow: column;
+	gap: 16px;
+}
+
+label {
+	display: block;
+
+}
+
+input {
+	border-radius: 2px;
+	border-width: 1px;
+	padding: 8px;
+}
+
+legend {
+	font-weight: bold;
+}
+
+textarea {
+	min-height: 8rem;
+}
+
+.divinput {
+	display: flex;
+	flex-flow: column;
+	justify-content: flex-start;
+	gap: 2px;
+}
+
+button {
+    display: inline;
+	border-radius: 2px;
+	border-width: 1px;
+	padding: 8px 24px;
+}
+
+button:hover {
+	background-color: aqua;
+	cursor: pointer;
+}
+
+.buttoncontainer {
+	display: flex;
+	flex-flow: row;
+	justify-content: center;
+}
+
+
+
+
+
+
+
