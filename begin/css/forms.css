@@ -18,6 +18,7 @@ body, div {
 	flex-flow: row nowrap;
 	background-image: url(../img/galaxy.jpg);
 	justify-content: center;
+	align-items: center;
 }
 
 .backgroundcolor {
